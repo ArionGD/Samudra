@@ -1,0 +1,7 @@
+# PLACEHOLDER — see statements.yaml in this directory for why.
+
+- block_id: blk_003
+  statements: [stmt_047, stmt_112, stmt_088]
+  dimensions: [CON, COO, STR]
+  desirability_spread: 0.3   # max(5.2, 4.9, 5.1) - min(...) = 0.3, within the 0.5 CI threshold
+  time_limit_ms: 12000

@@ -1,0 +1,36 @@
+# PLACEHOLDER item bank — wiring/testing only.
+#
+# These are the same three example statements used in
+# frontend/src/App.tsx's DEMO_BLOCK, expressed in the real item-bank format
+# so backend/app/items/loader.py has something to load. Desirability means
+# below are invented, not from an actual rating study.
+#
+# Real M1 content requires the process in docs/01-instrument-design.md §M1
+# ("The critical design constraint — desirability matching"): ~120 statements,
+# a separate rating sample (n=30-50) scoring each on employer-favourability,
+# then blocks assembled within ±0.5 desirability spread. Do not administer
+# this placeholder set to real participants.
+
+- id: stmt_047
+  dimension: CON
+  text: "I keep a written plan for the week ahead."
+  desirability_mean: 5.2
+  desirability_sd: 0.9
+  desirability_n: 41
+  keyed: positive
+
+- id: stmt_112
+  dimension: COO
+  text: "I let others take the lead in group decisions."
+  desirability_mean: 4.9
+  desirability_sd: 1.1
+  desirability_n: 41
+  keyed: positive
+
+- id: stmt_088
+  dimension: STR
+  text: "I stay level-headed when deadlines compress."
+  desirability_mean: 5.1
+  desirability_sd: 0.8
+  desirability_n: 41
+  keyed: positive

@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+/*
+  Mobile-first is the primary target, not an edge case — see
+  ../../ARCHITECTURE.md #1. Design against a 360px viewport first;
+  everything wider is a bonus, not the baseline.
+*/
+
+:root {
+  color-scheme: light dark;
+}
+
+body {
+  margin: 0;
+  min-height: 100svh;
+}
+
+#root {
+  min-height: 100svh;
+}
